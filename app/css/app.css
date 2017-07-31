@@ -5,4 +5,75 @@ html,body{
   font-family: 'Montserrat' ,sans-serif;
 }
 
-/*TODO*/
+.lang-choice-container a{
+    text-decoration: none !important;
+}
+
+.lang-choice-container{
+    padding-top: 10px;
+
+}
+
+.selected{
+    background: url('https://cdn4.iconfinder.com/data/icons/social-messaging-ui-coloricon-1/21/41-128.png') no-repeat center;
+    background-size: 60% auto;
+}
+
+.lang-choice-container img{
+    margin-bottom: 20px;
+}
+
+.lang-choice-container a:hover{
+    background: url('https://cdn4.iconfinder.com/data/icons/social-messaging-ui-coloricon-1/21/41-128.png') no-repeat center;
+    background-size: 60% auto;
+}
+
+.content{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col{
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .col { width: 100%; }
+}
+
+
+.pot-name{
+    display: table-cell;
+    vertical-align: bottom;
+    height: inherit;
+    padding-bottom: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+    position: inherit;
+    background: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 0, 0)) no-repeat center 120px;
+}
+
+.pot-image{
+    height: inherit;
+}
+
+.pot-item{
+    display: inline-table;
+    height: 240px;
+    width: 75%;
+    content: '';
+    margin-bottom: 8px;
+    margin-top: 8px;
+    position: inherit;
+}
+
+.loading{
+    background: url('../img/loading.svg') no-repeat center center;
+    background-size: 15% 15%;
+}
